@@ -126,7 +126,7 @@
   7. O($n!$): Factorial 阶乘
   
 * 主定理
-  [![2hegk.png](https://wx1.sbimg.cn/2020/06/28/2hegk.png)](https://sbimg.cn/image/2hegk)
+![2hegk.png](https://wx1.sbimg.cn/2020/06/28/2hegk.png)
 
     > 主定理：用于解决递归函数的时间复杂度
     >
