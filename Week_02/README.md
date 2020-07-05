@@ -160,21 +160,25 @@ vector<int> twoSum(vector<int>& nums, int target) {
    
 ```
    
-**提交代码**：
+---
+   
+   
+   
+   **提交代码**：
    
    ```cpp
    bool isAnagram(string s, string t) {
        if (s.size() != t.size()) {
            return false;
        }
-       sort(s.begin(), s.end());
+    sort(s.begin(), s.end());
        sort(t.begin(), t.end());
        return s == t;
-   }
-```
+}
+   ```
    
    * 时间复杂度：$O(n\log n)$，排序时间占主导，Cpp 中排序函数 sort 的时间复杂度为 $O(n\log n)$
-* 空间复杂度：$O(1)$
+   * 空间复杂度：$O(1)$
    
 2. hash, map:
 
