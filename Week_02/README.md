@@ -158,7 +158,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
        std::cout << '\n';
    }
    ```
----
+
 
    **提交代码**：
 
@@ -236,7 +236,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
        }
    
        return true;
-}
+   }
    ```
    
    * 时间复杂度：$O(n)$
