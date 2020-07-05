@@ -157,9 +157,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
        }   
        std::cout << '\n';
    }
-   
-```
-   
+   ```
 ---
 
    **提交代码**：
