@@ -157,10 +157,11 @@ vector<int> twoSum(vector<int>& nums, int target) {
        }   
        std::cout << '\n';
    }
-   ```
-
-   **提交代码**：
-
+   
+```
+   
+**提交代码**：
+   
    ```cpp
    bool isAnagram(string s, string t) {
        if (s.size() != t.size()) {
@@ -170,11 +171,11 @@ vector<int> twoSum(vector<int>& nums, int target) {
        sort(t.begin(), t.end());
        return s == t;
    }
-   ```
-
+```
+   
    * 时间复杂度：$O(n\log n)$，排序时间占主导，Cpp 中排序函数 sort 的时间复杂度为 $O(n\log n)$
-   * 空间复杂度：$O(1)$
-
+* 空间复杂度：$O(1)$
+   
 2. hash, map:
 
    * 统计每个字符的频次，看频次是否相等
